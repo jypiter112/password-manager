@@ -1,0 +1,40 @@
+{
+    "users":[
+        {
+            "id": "Password manager",
+            "name": "admin",
+            "password": "password",
+            "email": "none"
+        },
+        {
+            "id": "clash of clans",
+            "name": "admin",
+            "password": "admin",
+            "email": "admin@admin.com"
+        },
+        {
+            "id": "super smash bros",
+            "name": "john",
+            "password": "doodoo121",
+            "email": "mit@gmail.com"
+        },
+        {
+            "id": "steam",
+            "name": "diiba1",
+            "password": "daaba92",
+            "email": "ei@ole.com"
+        },
+        {
+            "id": "admin",
+            "name":"admin",
+            "password":"admin",
+            "email":"no@ne.no"
+        },
+        {
+            "id":"secret",
+            "name":"joona",
+            "password":"123",
+            "email":"no@ne.no"
+        }
+    ]
+}

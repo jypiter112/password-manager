@@ -1,0 +1,134 @@
+:root{
+    --light-bg: rgb(238, 251, 255);
+    --shadow: rgba(148, 148, 148, 0.313);
+    --button-bg: #f0ecff;
+    --current-tab-bg: rgb(193, 202, 255);;
+    --med-font: 15px;
+}
+/*MAIN BLOCKS*/
+#all{
+    display: flex;
+    margin: auto;
+}
+#category-block{
+    margin-left: 2%;
+}
+#credential-list{
+    margin-top: 10px;
+
+    border: 2px solid var(--light-bg);
+
+    overflow-y: scroll;
+    max-height: 2500px;
+}
+#search-block{
+    margin-left: auto;
+
+    justify-content: right;
+    margin-right: 40px;
+}
+#search-results{
+    margin-left: auto;
+    margin-right: 40px;
+    margin-top: 10px;
+
+    overflow-y: scroll;
+    max-height: 2500px;
+
+    justify-content: right;
+    border: 2px solid var(--light-bg);
+}
+
+/*SMALLER BLOCKS*/
+#category-bar{
+    display: flex;
+    flex-direction: row;
+}
+#credential{
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+
+    width: 300px;
+    max-width: 350px;
+
+    background-color: var(--light-bg);
+    box-shadow: 4px 4px 2px 2px var(--shadow);
+    
+    border-radius: 10px;
+    padding: 10px 10px 10px 10px;
+    padding-left: 30px;
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+/*OBJECTS*/
+button{
+    background-color: var(--button-bg);
+    border: 0px;
+    border-radius: 5px;
+
+    padding: 10px 10px 10px 10px;
+    margin-left: 10px;
+
+    font-size: var(--med-font);
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+button:hover{
+    border: 2px solid var(--current-tab-bg);
+}
+#current-tab:hover{
+    background-color: var(--button-bg);
+}
+input{
+    padding: 10px 10px 10px 10px;
+    font-size: var(--med-font);
+    border-radius: 5px;
+    border-color: var(--button-bg)
+}
+h1{
+    margin: auto;
+    margin-bottom: 20px;
+    text-align: center;
+}
+h2{
+    margin-left: 10px;
+}
+/*SPECIFIC ELEMENTS*/
+#invalid{
+    display: flex;
+    margin-right: 200px;
+    color: red;
+}
+#current-tab{
+    background-color: var(--current-tab-bg);
+}
+#cred-id{
+    font-weight: bold;
+}
+#logout{
+    display: flex;
+    text-align: center;
+    margin: auto;
+}
+/*LOGIN FORM SPECIFICS*/
+span{
+    font-size: 20px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    margin-right: 10px;
+}
+#login-form{
+    display: flex;
+    flex-direction: column;
+    width: 200px;
+    margin: auto;
+    margin-top: 150px;
+}
+#submit-form{
+    margin-top: 15px;
+    background-color: white;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    box-shadow: 3px 3px 3px var(--shadow);
+}
